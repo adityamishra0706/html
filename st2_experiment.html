@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Page</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+    }
+
+    /* Navbar (Flexbox) */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #333;
+        color: #fff;
+        padding: 15px;
+        font-size: 22px;
+    }
+
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    /* Product Card (Grid) */
+    .product-card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        width: 280px;
+        box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        text-align: center;
+    }
+
+    /* Button */
+    .btn {
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #0056b3;
+    }
+    .img{
+        justify-content: center;
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="navbar">PRODUCT PAGE</div>
+
+    <div class="container">
+        
+        <div class="product-card">
+          <div class="img" > <img src="xyz"></div>
+            <h2>Product</h2>
+            <p>This is a sample product description.</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</body>
+</html
